@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Contact Details</title>
+        <style>
+            body{
+                font-size: medium;
+                font-family: 'Times New Roman';
+                background-color: gainsboro;
+            }
+            form{
+              text-decoration: none;
+              font-size: 16px;
+              font-family: calibri;
+            }
+            p{
+              color:palevioletred;
+            }
+            h2{
+              color:black;
+              text-align: left;
+            }
+            button a{
+              text-decoration: solid;
+              color:black;
+    
+            }
+            
+
+        </style>
+    </head>
+    <body>
+        <form class="pt-3">
+        <h2 class=mt-3>Create Contact</h2>
+        Name of the Person : 
+        <input type="text"  id="name" placeholder="Enter Name">
+        <br/> <br>
+        Address of the Person : 
+        <input type="mail" id="address" placeholder="Enter Address">
+       <br/><br>
+        Email of the Person : 
+        <input type="text" placeholder="Email Id" id="mail">
+       <br/><br>
+        Phone Number of the Person : 
+        <input type="Phno" placeholder="+91" pattern="[0-9]{10}" id="phone">
+        <br/><br>
+    <button onclick="Contact()" class="bg-warning"><a href="contact_list.html">Add Contact</a></button>
+    <button class="bg-warning">Clear</button>
+    </form>
+    </body>
+    </html>
